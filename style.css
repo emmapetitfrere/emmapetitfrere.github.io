@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+  font-family:'Raleway', sans-serif;
+  color: rgb(169,169,169);
+  font-size: 16px;
+  background-image: url("pink_rice.png");
+  border: solid;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 125px;
+  }
+
+#container {
+  max-width: 960px;
+  margin:0 auto;
+  }
+
+#contact {
+  border-bottom: 3px solid #fff;
+}
+
+#education {
+  border-bottom: 2px solid #fff;
+}
+
+#work {
+  border-bottom: 2px solid #fff;
+
+}
+
+#honors {
+  border-bottom: 2px solid #fff;
+}
+
+#name {
+  font-size: 32px;
+  padding: 0px;
+  border: 0px;
+  margin:40px 0px;
+  font-family: 'Wire One', sans-serif;
+  text-align: center;
+  letter-spacing: 25px;
+
+  }
+
+#contactinfo {
+  text-align: center;
+  padding: 0px;
+}
+
+.navcontainer li {
+  border-style: hidden;
+  float: left;
+  max-width: 154;
+  margin: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+ }
+
+a: active {
+  color: purple;
+}
