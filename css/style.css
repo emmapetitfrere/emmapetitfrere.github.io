@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+  font-family:'Raleway', sans-serif;
+  color: black;
+  font-size: 16px;
+  background-image: url("../images/nice_snow.png");
+  border: hidden;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 125px;
+  }
+
+nav {
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  margin: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  word-spacing: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+
+#container {
+  max-width: 960px;
+  min-width: 0px;
+  margin:0 auto;
+  }
+
+#contact {
+  border-bottom: 3px solid;
+}
+
+#education {
+  border-bottom: 2px solid;
+}
+
+#work {
+  border-bottom: 2px solid;
+
+}
+
+#honors {
+  border-bottom: 2px solid;
+}
+
+#name {
+  font-size: 32px;
+  padding: 0px;
+  border: 0px;
+  margin:40px 0px;
+  font-family: 'Wire One', sans-serif;
+  text-align: center;
+  letter-spacing: 25px;
+}
+
+#contactinfo {
+  text-align: center;
+  padding: 0px;
+}
+
+.navcontainer li {
+  border-style: hidden;
+  float: left;
+  max-width: 154;
+  margin: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: teal;
+}
+
+a:hover {
+  color: grey;
+ }
+
+a: active {
+  color: purple;
+}
+
+#webnav {
+  text-align: center;
+  }
+
+#emmypic {
+  text-align: center;
+}
+
+#quote {
+  text-align: center;
+}
+
+#homepic {
+   text-align: center;
+   margin: 60px;
+}
+
+
+#audio {
+  border: 2px hidden;
+  margin: 30px;
+}
+#print {
+  border: 2px hidden;
+}
+
+#visual {
+  border: 2px hidden;
+  text-align: center;
+}

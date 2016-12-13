@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Glegoo');
+
+@media print {
+
+body {
+  font-family: 'Glegoo', serif;
+  color: black;
+  font-size: 12pt;
+  border: solid;
+  background-color: transparent;
+}
+
+#webnav {
+  display: none;
+}
+
+#container {
+  max-width: 960pt;
+  margin:0 auto;
+  }
+
+#contactinfo {
+  border-bottom: 3pt solid;
+  text-align: center;
+}
+
+#webnav {
+  text-align: center;
+}
+
+#education {
+  border-bottom: 2pt solid;
+}
+
+#work {
+  border-bottom: 2pt solid;
+
+}
+
+#honors {
+  border-bottom: 2pt solid;
+}
+
+#name {
+  font-size: 24pt;
+  padding: 0pt;
+  border: 0pt;
+  margin:40pt 0pt;
+  text-align: center;
+  letter-spacing: 20pt;
+}
